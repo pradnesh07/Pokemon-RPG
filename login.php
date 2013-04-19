@@ -22,7 +22,7 @@
 		<link href="index.css" rel="stylesheet" type="text/css" />
 	</head>
 	<body>
-		<div class="banner" />
+		<div class="banner"></div>
 		<div class="leftmenu">
 			<ul>
 				<li class="header">Navigation</li>

@@ -5,7 +5,7 @@
 		<link href="index.css" rel="stylesheet" type="text/css" />
 	</head>
 	<body>
-		<div class="banner" />
+		<div class="banner"></div>
 		<div class="leftmenu">
 			<ul>
 				<li class="header">Navigation</li>
@@ -98,7 +98,7 @@
 										$month = time() + 3600*24*30; 
 										$_SESSION['user'] = $_POST['username'];
 										setcookie("save_user", $_POST['username'], $month); 
-										$login = "INSERT INTO logins (account, ip, success) VALUES ('"$_POST['username']."', '".$_SERVER["REMOTE_ADDR"]."', 'Yes')";
+										$login = "INSERT INTO logins (account, ip, success) VALUES ('".$_POST['username']."', '".$_SERVER["REMOTE_ADDR"]."', 'Yes')";
 										$add_login = mysql_query($login);
 										header("location: news.php");
 									}

@@ -1,0 +1,270 @@
+html {
+ background:url(/images/layout/bg.png) repeat;
+}
+
+body {
+ width:95%;
+ background:url(/images/layout/bg.png) repeat center top;
+ background-color:#3E3E3E;
+ margin:auto;
+ font-family:Verdana;
+ font-size:12px;
+ color:#fff;
+}
+
+.banner {
+ padding: 0px;
+ height: 250px;
+ width:95%;
+ margin:auto;
+ background: url(banner.png) no-repeat center top;
+ opacity:0.8;
+}
+.banner:hover {
+ opacity:0.8;
+}
+
+ul  {
+ list-style:none;
+ padding:0px;
+ margin:0px;
+ text-align:center;
+}
+.leftmenu {
+ position:absolute;
+ margin-left:0px;
+ width:15%;
+ top:100px;
+}
+.leftmenu ul  {
+ background:url(/images/layout/td.png);
+ list-style:none;
+ padding:0px;
+ margin:0px;
+}
+.leftmenu li  {
+ border-top: none;
+ border:#fff solid 1px;
+ border-top: none;
+ background: url(/images/layout/td3.png) repeat;
+ list-style:none;
+ padding:0px;
+ margin:0px;
+}
+.leftmenu li.noborders {
+ border-top: none;
+ border:0;
+ border-top: none;
+ background: url(/images/layout/td3.png) repeat;
+ list-style:none;
+ padding:0px;
+ margin:0px;
+}
+.leftmenu li:hover  {
+ border-top: none;
+ text-shadow:#fff 0px 0px 4px;
+ background: url(/images/layout/td2.png) repeat;
+ list-style:none;
+ padding:0px;
+ margin:0px;
+}
+
+.leftmenu li.header {
+ border:#fff solid 1px;
+ font-weight: bold;
+ background: url(/images/layout/td.png) repeat;
+ height: 20px;
+}
+
+.rightmenu {
+ position:absolute;
+ margin-left:81%;
+ width:15%;
+ top:100px;
+}
+.rightmenu ul {
+ background:url(/images/layout/td.png);
+ list-style:none;
+ padding:0px;
+ margin:0px;
+}
+.rightmenu li  {
+ border-top: none;
+ border:#fff solid 1px;
+ border-top: none;
+ background: url(/images/layout/td3.png) repeat;
+ list-style:none;
+ padding:0px;
+ margin:0px;
+}
+.rightmenu li.noborders {
+ border-top: none;
+ border:0;
+ border-top: none;
+ background: url(/images/layout/td3.png) repeat;
+ list-style:none;
+ padding:0px;
+ margin:0px;
+}
+.rightmenu li:hover  {
+ border-top: none;
+ text-shadow:#fff 0px 0px 4px;
+ background: url(/images/layout/td2.png) repeat;
+ list-style:none;
+ padding:0px;
+ margin:0px;
+}
+.rightmenu li.header {
+ border:#fff solid 1px;
+ font-weight: bold;
+ background: url(/images/layout/td.png) repeat;
+ height: 20px;
+}
+.content {
+background:url(/images/layout/td3.png);
+width:65%;
+border:#fff 1px solid;
+position:absolute;
+margin-left:15.5%;
+top:100px;
+text-align: center;
+text-shadow:#fff 0px 0px 4px;
+}
+.special_content {
+background:url(/images/layout/td3.png);
+width:80%;
+border:0;
+position:absolute;
+margin-left:8%;
+top:100px;
+text-align: left;
+text-shadow:#fff 0px 0px 4px;
+}
+.content li.top {
+ background: url(/images/layout/td.png) repeat;
+ height: 20px;
+ border-bottom: #fff solid 1px;
+ color: #fff
+ font-weight: bold;
+}
+.content li.special {
+text-align: left;
+}
+.content li.footer {
+ margin-top: 8px;
+ background: url(/images/layout/td.png) repeat;
+ height: 20px;
+ text-align: center;
+ border: #fff solid 1px; 
+ color: #fff;
+ font-weight: bold;
+}
+.content li.footer_cr {
+ background:url(/images/layout/td3.png);
+ text-align: center;
+ border: #fff solid 1px;
+ padding: 0px;
+ text-shadow: #fff 0px 0px 4px;
+}
+.content li.legal {
+background: url(legal.php) no-repeat center top;
+}
+/* Table */
+table {
+ width: 80%;
+ text-align: center;
+}
+td {
+ border:1px solid #fff;
+ font-weight:bold;
+ text-align:center;
+ padding-left:25px;
+ padding-right:25px;
+ padding-bottom:5px;
+ padding-top:5px;
+ text-shadow: #fff 0px 0px 4px;
+}
+.noshadow td{
+ text-shadow:none;
+ font-family:Verdana;
+ font-size:8px;
+}
+.noborders td {
+ border:0;
+}
+
+div.poke1display{
+position:fixed;
+bottom:130px;
+width:100px;
+border:#FFF 1px solid;
+margin-left:50px;
+display:none;
+background:#000;
+}
+
+div.poke2display
+{
+position:fixed;
+bottom:130px;
+width:100px;
+border:#FFF 1px solid;
+margin-left:200px;
+display:none;
+background:#000;
+}
+
+div.poke3display
+{
+position:fixed;
+bottom:130px;
+width:100px;
+border:#FFF 1px solid;
+margin-left:300px;
+display:none;
+background:#000;
+}
+
+div.poke4display
+{
+position:fixed;
+bottom:130px;
+width:100px;
+border:#FFF 1px solid;
+margin-left:400px;
+display:none;
+background:#000;
+}
+
+div.poke5display{
+ position:fixed;
+ bottom:130px;
+ width:100px;
+ border:#FFF 1px solid;
+ margin-left:500px;
+ display:none;
+ background:#000;
+}
+
+div.poke6display {
+position:fixed;
+ bottom:130px;
+ width:100px;
+ border:#FFF 1px solid;
+ margin-left:600px;
+ display:none;
+ background:#000;
+}
+
+td.pokedisplay {
+ font-size:12px;
+ border:#FFF solid 1px;
+ padding:2px;
+ color:#FFF;
+ width:100px;
+ text-shadow:none;
+}
+
+a:link {text-decoration:none; color:#fff;}
+a:visited {text-decoration:none; color:#fff;}
+a:hover{text-decoration:none; color:#fff;}
