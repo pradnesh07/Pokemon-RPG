@@ -1,0 +1,17 @@
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW ERRORPAGEID:uVyPuL
+ErrorDocument 404 /404.html
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE uVyPuL:ERRORPAGEID
+
+#Added below to remove index.php in urls
+Options +FollowSymLinks -MultiViews
+# Turn mod_rewrite on
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?$1 [L,QSA]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s(.*)/index\.php [NC]
+RewriteRule ^ /%1 [R=301,L]
+#Added above to remove index.php in urls
